@@ -61,6 +61,12 @@ span i{
     color: #ffffff;
     font-size: 1.7rem;
 }
+#original{
+    display: block;
+}
+#cambio{
+    display: none;  
+}
 /*DESTINOS*/
 
 .card{
@@ -68,3 +74,41 @@ span i{
     
 }
 
+footer{
+    background-color: #17a3b8;
+}
+.redes{
+    text-align: right;
+}
+footer i{
+    font-size:3rem;
+    
+}
+footer p{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 780px){
+    #cambio{
+        display: block;
+    }
+    
+    #original{
+        display: none;
+    }
+    footer i{
+        font-size: 2rem;
+    }
+}
+
+
+
+
+@media (max-width: 500px){
+    footer p{
+        text-align: center;
+        
+    }
+}
